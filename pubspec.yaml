@@ -1,0 +1,72 @@
+name: houzeo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  connectivity_wrapper: ^1.0.6
+  google_fonts: ^2.3.1
+  flutter_screenutil: ^5.5.3+2
+  sqflite: ^2.0.3
+  path_provider: ^2.0.11
+  firebase_database: ^9.0.20
+  firebase_core: ^1.20.0
+  cloud_firestore: ^3.4.2
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Sora-Bold
+      fonts:
+        - asset: fonts/Sora-Bold.ttf
+
+    - family: Sora-ExtraBold
+      fonts:
+        - asset: fonts/Sora-ExtraBold.ttf
+
+    - family: Sora-ExtraLight
+      fonts:
+        - asset: fonts/Sora-ExtraLight.ttf
+
+    - family: Sora-Light
+      fonts:
+        - asset: fonts/Sora-Light.ttf
+
+    - family: Sora-Medium
+      fonts:
+        - asset: fonts/Sora-Medium.ttf
+
+    - family: Sora-Regular
+      fonts:
+        - asset: fonts/Sora-Regular.ttf
+
+    - family: Sora-SemiBoldy
+      fonts:
+        - asset: fonts/Sora-SemiBold.ttf
+
+    - family: Sora-Thin
+      fonts:
+        - asset: fonts/Sora-Thin.ttf
+

@@ -47,7 +47,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
             Get.to(() => const AddContact());
           }),
       appBar: AppBar(
-        title: const Text('sqflite'),
+        title: const Text('Contact Details'),
         actions: [
           IconButton(
               onPressed: () async {

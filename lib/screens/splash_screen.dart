@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:houzeo/mixins/after_layout.dart';
 import 'package:houzeo/res/assets.dart';
@@ -33,10 +34,9 @@ class _SplashScreenState extends State<SplashScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Image(
-          image: const AssetImage(Assets.logo),
-          height: Sizes.s100,
-          width: Sizes.s100,
+        child: SvgPicture.asset(
+            Assets.logoTwo,
+            semanticsLabel: 'Acme Logo'
         ),
       ),
     );

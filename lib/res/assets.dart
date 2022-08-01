@@ -1,5 +1,6 @@
 class Assets {
   static const String logo = "assets/logo.png";
+  static const String logoTwo = "assets/new-logo.svg";
   static const String locationMarkerBlack = 'assets/locationMarkerBlack.png';
   static const String storage = 'assets/storage.png';
   static const String slideImage1 = 'assets/dish.png';
